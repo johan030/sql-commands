@@ -1,0 +1,21 @@
+
+SELECT * FROM `utilisateurs`
+SELECT * FROM `imc`
+
+
+
+
+SELECT * FROM `utilisateurs` ;
+SELECT * FROM `IMC` ;
+SELECT * FROM `utilisateurs` WHERE `superUser` ;
+SELECT * FROM `imc` WHERE `poids` > 65;
+
+
+
+SELECT * FROM `imc` WHERE `poids` > 62;
+SELECT * FROM `imc` WHERE `taille` < 175;
+
+
+
+UPDATE `IMC` SET `imc` = 20 WHERE `poids` = 80;
+DELETE  FROM imc WHERE nom = "Nom80";
